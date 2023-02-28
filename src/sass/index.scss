@@ -1,2 +1,41 @@
 @import './common';
-@import './example';
+
+.input {
+  margin-right: 5px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.add {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.add:focus {
+  outline: 4px double rgb(0, 0, 0);
+}
+.list {
+  list-style: none;
+  padding: 0;
+  width: 600px;
+}
+.list li {
+  display: flex;
+}
+.list button {
+  margin-left: auto;
+}
+.pending,
+.completed {
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.pending {
+  background-color: rgb(255, 255, 107);
+}
+.completed {
+  background-color: rgb(121, 255, 161);
+}
